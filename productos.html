@@ -1,9 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Productos</title>
-  </head>
-  <body></body>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Productos | made by Roms</title>
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+<header>
+<h1>made by Roms</h1>
+<p>tiendita handmade de cositas hechas por Roms</p>
+</header>
+
+<nav class="navbar navbar-expand-lg">
+<div class="container">
+
+<ul class="navbar-nav nav-menu">
+
+<li><a class="nav-link" href="index.html">Inicio</a></li>
+<li><a class="nav-link" href="productos.html">Productos</a></li>
+<li>
+<a class="nav-link" href="carrito.html">
+Carrito <span class="badge bg-success" id="contador">0</span>
+</a>
+</li>
+<li><a class="nav-link" href="contacto.html">Contacto</a></li>
+
+</ul>
+
+</div>
+</nav>
+
+<main class="container mt-4">
+
+<h2 class="text-center mb-4">Algunas creaciones</h2>
+
+<section class="row">
+
+<article class="col-md-4">
+
+<div class="card">
+
+<a href="detalle.html">
+<img src="assets/image/chaleco bebe.JPG" class="card-img-top" alt="Chalequito hilo bebé">
+</a>
+
+<div class="card-body">
+
+<a href="detalle.html" style="text-decoration:none;">
+<h5>Chalequito hilo bebé  (con link) </h5>
+</a>
+
+<p>$20.000</p>
+
+<button class="btn btn-primary agregar" 
+data-nombre="Chalequito hilo bebé" 
+data-precio="20000">
+Agregar al carrito
+</button>
+
+</div>
+
+</div>
+
+</article>
+
+<article class="col-md-4">
+
+<div class="card">
+
+<img src="assets/image/capota.jpg" class="card-img-top">
+
+<div class="card-body">
+
+<h5>Gorrito tejido</h5>
+
+<p>$12.000</p>
+
+<button class="btn btn-primary agregar" data-nombre="Gorrito tejido" data-precio="12000">
+Agregar al carrito
+</button>
+
+</div>
+
+</div>
+
+</article>
+
+<article class="col-md-4">
+
+<div class="card">
+
+<img src="assets/image/poncho.jpg" class="card-img-top">
+
+<div class="card-body">
+
+<h5>Ponchito bebé</h5>
+
+<p>$25.000</p>
+
+<button class="btn btn-primary agregar" data-nombre="Ponchito bebé" data-precio="25000">
+Agregar al carrito
+</button>
+
+</div>
+
+</div>
+
+</article>
+
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 made by Roms</p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+
+</body>
 </html>

@@ -1,0 +1,6 @@
+id,nombre,categoria,precio
+1,prod_uno,ropa,20000.0
+2,prod_dos,manualidad,5000.0
+3,prod_tres,ropa,35000.0
+4,prod_cuatro,manualidad,15000.0
+5,prod_cinco,manualidad,10000.0
